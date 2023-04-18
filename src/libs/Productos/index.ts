@@ -18,7 +18,7 @@ export class Producto {
         this.dao = new ProductosDao(conn);
       })
       .catch((ex) => console.error(ex));
-  }
+  } 
   // Consultas
   public getAllProductos() {
     return this.dao.getProductos();
